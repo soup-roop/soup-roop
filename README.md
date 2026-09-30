@@ -15,7 +15,7 @@
 
 I'm a Computer Science Engineering student passionate about full-stack web engineering, systems programming, and building robust backends.
 
-- 🔭 **Working on:** Full-stack React & Spring Boot / Express web platforms, and embedded IoT systems
+- 🔭 **Working on:** Full-stack web platforms and embedded IoT systems
 - 🌱 **Learning:** Operating systems internals, distributed architectures, and algorithms
 - 💬 **Ask me about:** C, Java, Python, React, MongoDB, and REST APIs
 - ⚡ **Fun fact:** Passionate about low-level performance and clean architectural design
@@ -43,37 +43,6 @@ I'm a Computer Science Engineering student passionate about full-stack web engin
 <p align="left">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,arduino" alt="Tools" />
 </p>
-
----
-
-### 📌 Featured Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>✈️ <a href="https://github.com/soup-roop/skytrack">SkyTrack</a></h3>
-      <p>Full-stack airline tracking application with real-time radar mapping and ATC dashboard controls.</p>
-      <code>React</code> • <code>Node.js</code> • <code>Express</code> • <code>REST API</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏥 <a href="https://github.com/soup-roop">CareSync</a></h3>
-      <p>Hospital management system automating records, patient triage, and department workflows.</p>
-      <code>Full Stack</code> • <code>Spring Boot</code> • <code>Database Design</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚙️ <a href="https://github.com/soup-roop">OS Memory Benchmarks</a></h3>
-      <p>System-level benchmark suite measuring memory allocation latency and internal/external fragmentation.</p>
-      <code>C</code> • <code>Linux</code> • <code>Systems Programming</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🦯 <a href="https://github.com/soup-roop">Smart Blind Assist Cane</a></h3>
-      <p>Embedded obstacle and water surface detection system with auditory haptic feedback.</p>
-      <code>Arduino</code> • <code>C++</code> • <code>Sensors</code>
-    </td>
-  </tr>
-</table>
 
 ---
 
