@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-width="0.5" stroke-opacity="0.08" />
+    </pattern>
+
+    <linearGradient id="term-header" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="cyan-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1280" height="400" fill="url(#bg-grad)" />
+  <rect width="1280" height="400" fill="url(#grid)" />
+  <rect x="1" y="1" width="1278" height="398" rx="12" fill="none" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Ambient Glow -->
+  <circle cx="150" cy="100" r="160" fill="#0284c7" opacity="0.12" />
+  <circle cx="1150" cy="300" r="180" fill="#6366f1" opacity="0.10" />
+
+  <!-- Top System Status Bar -->
+  <text x="70" y="55" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#38bdf8" letter-spacing="3" opacity="0.85">// BUILD • LEARN • IMPROVE • REPEAT</text>
+  <line x1="70" y1="68" x2="380" y2="68" stroke="#38bdf8" stroke-width="1" opacity="0.25" />
+
+  <!-- Main Identity -->
+  <text x="68" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="56" fill="#f8fafc" letter-spacing="1">
+    SOURADEEPTA <tspan fill="url(#cyan-accent)">DAS</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="72" y="188" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="600" fill="#38bdf8" letter-spacing="2">
+    B.TECH CSE STUDENT  |  FULL-STACK DEVELOPER  |  SYSTEMS ENTHUSIAST
+  </text>
+
+  <!-- Tag Badges -->
+  <g transform="translate(72, 220)">
+    <rect x="0" y="0" width="130" height="28" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="14" cy="14" r="4" fill="#38bdf8" />
+    <text x="26" y="18" font-family="monospace" font-size="11" fill="#94a3b8">C &amp; SYSTEMS</text>
+
+    <rect x="142" y="0" width="135" height="28" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="156" cy="14" r="4" fill="#818cf8" />
+    <text x="168" y="18" font-family="monospace" font-size="11" fill="#94a3b8">REACT &amp; NODE</text>
+
+    <rect x="289" y="0" width="145" height="28" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="303" cy="14" r="4" fill="#34d399" />
+    <text x="315" y="18" font-family="monospace" font-size="11" fill="#94a3b8">SPRING &amp; MONGO</text>
+  </g>
+
+  <!-- Bottom Script -->
+  <text x="72" y="320" font-family="'Brush Script MT', 'Segoe Script', cursive, sans-serif" font-size="28" fill="#64748b" opacity="0.6">Keep Building.</text>
+
+  <!-- Terminal Window -->
+  <g transform="translate(790, 65)">
+    <rect x="0" y="0" width="420" height="260" rx="10" fill="#030712" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="0" y="0" width="420" height="34" rx="10" fill="url(#term-header)" />
+    <rect x="0" y="24" width="420" height="10" fill="url(#term-header)" />
+
+    <!-- Terminal Controls -->
+    <circle cx="18" cy="17" r="5" fill="#ef4444" opacity="0.8" />
+    <circle cx="34" cy="17" r="5" fill="#f59e0b" opacity="0.8" />
+    <circle cx="50" cy="17" r="5" fill="#10b981" opacity="0.8" />
+    <text x="210" y="22" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b" text-anchor="middle">souradeepta@dev-box:~</text>
+
+    <!-- Terminal Commands -->
+    <g font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12">
+      <text x="20" y="65" fill="#38bdf8">➜</text>
+      <text x="36" y="65" fill="#f8fafc">~</text>
+      <text x="52" y="65" fill="#94a3b8">neofetch --developer</text>
+
+      <text x="20" y="96" fill="#38bdf8">OS:</text>
+      <text x="80" y="96" fill="#cbd5e1">Linux / Arch x86_64</text>
+
+      <text x="20" y="120" fill="#38bdf8">Host:</text>
+      <text x="80" y="120" fill="#cbd5e1">B.Tech Computer Science</text>
+
+      <text x="20" y="144" fill="#38bdf8">Stack:</text>
+      <text x="80" y="144" fill="#cbd5e1">C, Java, Python, React, Spring</text>
+
+      <text x="20" y="168" fill="#38bdf8">Status:</text>
+      <text x="80" y="168" fill="#34d399">Building scalable systems...</text>
+
+      <text x="20" y="206" fill="#38bdf8">➜</text>
+      <text x="36" y="206" fill="#f8fafc">~</text>
+      <text x="52" y="206" fill="#94a3b8">git commit -m "Keep building"</text>
+
+      <text x="20" y="232" fill="#64748b">[main 2520030] 1 file changed (+100)</text>
+      <rect x="330" y="222" width="7" height="13" fill="#38bdf8" opacity="0.8" />
+    </g>
+  </g>
+</svg>
