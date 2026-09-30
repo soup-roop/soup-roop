@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="gemini-svg" alt="Header Banner" width="100%" />
+  <img src="assets/banner.svg" alt="Header Banner" width="100%" />
 </p>
-<div align="center">
 
 # Souradeepta Das
 ### B.Tech CSE Student • Full-Stack Developer • Systems Enthusiast
